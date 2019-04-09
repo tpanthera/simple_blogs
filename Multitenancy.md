@@ -9,22 +9,22 @@
 -  So it gives logical separation than physical separation (single tenenancy) .
 
  -- challenges (as of now my understanding )  ?
- 	- Deciding the logic to generate unique id (private key ..)  or main controlling organization for users.
- 	- which user & how it would be acessing the organization ?
- 	- giving user the access of a particular resource on demand , so tenant can also isolated resources as per demand.
- 		now providing low level isolation might lead to more complex code base (or can be handled by microservice architecture ?).
- 	- handling/ archving the APIs (mostly restful) as per tenant.
- 	- no data leaking from one to another .
- 	- If the single resources in which all tenants are dependent fails , all tenants suffer .
- 	- 3rd party identity provider &  library integration .
+ - Deciding the logic to generate unique id (private key ..)  or main controlling organization for users.	
+ - which user & how it would be acessing the organization ?
+ - giving user the access of a particular resource on demand , so tenant can also isolated resources as per demand.
+    now providing low level isolation might lead to more complex code base (or can be handled by microservice architecture ?).
+ - handling/ archving the APIs (mostly restful) as per tenant.
+ - no data leaking from one to another .
+ - If the single resources in which all tenants are dependent fails , all tenants suffer .
+ - 3rd party identity provider &  library integration .
 
 
  -- advantages ?
  If any software update / bug fixes / version rolling 
-    - all can be done in 1 application server , in one database or resource that will roll out to all instances seamlessly.
-    - easily scalable 
-    - single code base 
-    - reduces infra cost , as sharing hardware resources.
+ - all can be done in 1 application server , in one database or resource that will roll out to all instances seamlessly.
+ - easily scalable 
+ - single code base 
+ - reduces infra cost , as sharing hardware resources.
 
 
 --compared with ?

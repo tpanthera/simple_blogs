@@ -1,12 +1,12 @@
- Multitenancy 
+ # Multitenancy 
  
- # Is the software acrhitecture pattern to run the same application instance for different customer (tenants) , 
- # that means different customer will be using same application server ,  database or any other resource binded with application
+ - Is the software acrhitecture pattern to run the same application instance for different customer (tenants) , 
+ -  that means different customer will be using same application server ,  database or any other resource binded with application
    platform.
- # So every data will be in form of metadata (data inside data) .
- # So creating a record in database for one user gives user same interface as others user will be getting , but in backend let say   
+ - So every data will be in form of metadata (data inside data) .
+ -  So creating a record in database for one user gives user same interface as others user will be getting , but in backend let say   
    unique id ( logical separation) has been generated for users and all the data user gonna create will be recorded under his/her unique instance as metadata.
-# So it gives logical separation than physical separation (single tenenancy) .
+-  So it gives logical separation than physical separation (single tenenancy) .
 
  -- challenges (as of now my understanding )  ?
  	- Deciding the logic to generate unique id (private key ..)  or main controlling organization for users.

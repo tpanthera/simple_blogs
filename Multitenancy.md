@@ -31,12 +31,13 @@
 - Single tenancy : 
 	so user can install the application in their own server and have 100 % control on how they work .
 - multi-instance architecture 
-- Virtulization 
+- Virtualization 
 
 
 some links :
  	https://www.youtube.com/watch?v=Kg_SHjp3DQ4 
  	https://www.youtube.com/watch?v=Tuy_O37H3O8  (multi tenancy in salesforce)
-  	https://www.youtube.com/watch?v=WY1CWROPAU8 (good)
+  	https://www.youtube.com/watch?v=WY1CWROPAU8  (good)
+	https://www.linkedin.com/pulse/architecture-constraints-end-multi-tenancy-gregor-hohpe/
 
 
